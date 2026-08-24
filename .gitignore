@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+backend/venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+mobile/.env
+backend/.env
+backend/.env.*
+firebase-service-account.json
+
+# Expo / React Native
+mobile/node_modules/
+.expo/
+mobile/.expo/
+
+# Runtime / local demo data
+backend/uploads/
+backend/local_data.json
+
+# OS
+.DS_Store
+Thumbs.db
+.expo/
+.expo/
+mobile/*.sdk52-backup

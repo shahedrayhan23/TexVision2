@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TexVision",
+    "slug": "texvision",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "TexVision needs camera access to capture fabric images for AI defect inspection."
+      }
+    },
+    "android": {
+      "package": "com.texvision.app",
+      "permissions": [
+        "CAMERA"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "TexVision needs camera access to capture fabric images for AI defect inspection."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
